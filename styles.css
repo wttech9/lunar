@@ -14,11 +14,11 @@ header {
     /* set z-index of header/nav so that it comes above slideshow slider.  */
 }
 
-body {
+/* body {
     margin: 0;
     padding: 0;
     overflow:hidden
-}
+} */
 
 html,
 body {
@@ -179,7 +179,7 @@ body {
 .slides {
     width: 100vw;
     height: 100vh;
-    background-image: url(/lunar/img/assets/Screenshot\ 2023-06-01\ at\ 12.35.02\ AM.png);
+    background-image: url(/img/assets/cover.png);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -226,13 +226,20 @@ body {
     font-weight: 900;
 }
 
+.heading>h1 {
+    padding: 20px 0;
+    font-weight: 900;
+    font-size: 34px;
+    color: #09151a;
+}
+
 .subheading {
     font-family: 'Montserrat', sans-serif;
-    color: white;
     margin: 4% 8%;
     font-size: 2.5vh;
     line-height: 2;
     font-weight: 100;
+    color: white;
 }
 
 
@@ -303,7 +310,7 @@ body {
 .contact-slide {
     width: 100vw;
     height: 80vh;
-    background-image: url(/lunar/img/assets/Screenshot\ 2023-06-10\ at\ 12.30.37\ AM.png);
+    background-image: url(/img/assets/bgcover.png);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -536,7 +543,7 @@ body {
 .bg {
     width: 100vw;
     height: 70vh;
-    background-image: url(/lunar/img/assets/Screenshot\ 2023-06-10\ at\ 12.30.37\ AM.png);
+    background-image: url(/img/assets/bgcover.png);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -565,7 +572,7 @@ body {
 }
 
 .list>h6 {
-    color: aliceblue;
+    color: #09151a;
     line-height: 1.5;
     padding: 0px 10px;
     margin: 0 0;

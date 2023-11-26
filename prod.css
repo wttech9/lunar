@@ -273,7 +273,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    background-image: url(/lunar/img/assets/Screenshot\ 2023-06-01\ at\ 12.35.02\ AM.png);;
+    background-image: url(/img/assets/cover.png);;
 
 }
 .menu-flex-container h1{
@@ -333,7 +333,7 @@ body {
 .bg {
     width: 100vw;
     height: 70vh;
-    background-image: url(/lunar/img/assets/Screenshot\ 2023-06-10\ at\ 12.30.37\ AM.png);
+    background-image: url(/img/assets/bgcover.png);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
