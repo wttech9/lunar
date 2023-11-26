@@ -273,7 +273,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    background-image: url(/img/assets/cover.png);;
+    background-image: url(/lunar/img/assets/cover.png);;
 
 }
 .menu-flex-container h1{
@@ -333,7 +333,7 @@ body {
 .bg {
     width: 100vw;
     height: 70vh;
-    background-image: url(/img/assets/bgcover.png);
+    background-image: url(/lunar/lunar/img/assets/bgcover.png);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;

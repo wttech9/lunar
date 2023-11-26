@@ -73,9 +73,6 @@ body {
     padding-right: 10px;
 }
 
-.socialmedia {
-    /* margin-left: 20%; */
-}
 
 .socialmedia i {
     font-size: 12px;
@@ -179,7 +176,7 @@ body {
 .slides {
     width: 100vw;
     height: 100vh;
-    background-image: url(/img/assets/cover.png);
+    background-image: url(/lunar/lunar/img/assets/cover.png);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -310,7 +307,7 @@ body {
 .contact-slide {
     width: 100vw;
     height: 80vh;
-    background-image: url(/img/assets/bgcover.png);
+    background-image: url(/lunar/img/assets/bgcover.png);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -530,6 +527,24 @@ body {
     height: 70vh;
 }
 
+.contact-heading {
+    /* width: 500px;
+    height: 900px; */
+    font-family: 'Montserrat', sans-serif;
+    color: #09151a;
+    margin: 2% 10%;
+    font-size: 5vw;
+    font-weight: 900;
+}
+
+.contact-heading>h1 {
+    padding: 20px 0;
+    font-weight: 900;
+    font-size: 34px;
+    color: #09151a;
+}
+
+
 .columns {
     display: flex;
     flex-wrap: wrap;
@@ -543,7 +558,7 @@ body {
 .bg {
     width: 100vw;
     height: 70vh;
-    background-image: url(/img/assets/bgcover.png);
+    background-image: url(/lunar/lunar/img/assets/bgcover.png);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -579,8 +594,6 @@ body {
 }
 
 
-
-.map {}
 
 
 
