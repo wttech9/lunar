@@ -333,7 +333,7 @@ body {
 .bg {
     width: 100vw;
     height: 70vh;
-    background-image: url(/lunar/lunar/img/assets/bgcover.png);
+    background-image: url(/lunar/img/assets/bgcover.png);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -358,15 +358,30 @@ body {
 .list>i {
     color: #55acee;
     font-size: 20px;
+    padding-right: 10px;
 }
 
 .list>h6 {
+    font-family: 'Montserrat', sans-serif;
     color: aliceblue;
     line-height: 1.5;
-    padding: 0 0;
+    padding: 0 10px;
     margin: 0 0;
 }
-
+.contact-heading {
+    /* width: 500px;
+    height: 900px; */
+    font-family: 'Montserrat', sans-serif;
+    margin: 2% 10%;
+    font-size: 5vw;
+    font-weight: 900;
+}
+.contact-heading>h1 {
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px 0;
+    font-weight: 900;
+    font-size: 34px;
+}
 
 
 

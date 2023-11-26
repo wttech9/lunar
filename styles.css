@@ -176,7 +176,7 @@ body {
 .slides {
     width: 100vw;
     height: 100vh;
-    background-image: url(/lunar/lunar/img/assets/cover.png);
+    background-image: url(/lunar/img/assets/cover.png);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -294,7 +294,7 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     width: 100vw;
-    height: 80vh;
+    height: 65vh;
     overflow:hidden;
 }
 
@@ -306,7 +306,7 @@ body {
 
 .contact-slide {
     width: 100vw;
-    height: 80vh;
+    height: 65vh;
     background-image: url(/lunar/img/assets/bgcover.png);
     background-position: top;
     background-size: cover;
@@ -331,7 +331,7 @@ body {
     gap: 1rem;
     /* grid-template-columns: auto auto auto; */
     width: 90vw;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     
 
 }
@@ -370,7 +370,13 @@ body {
         grid-template-columns: repeat(2, 1fr);
     }
     .contact-caption {
-        margin: 1% 5%;
+        margin: 0% 0%;
+    }
+    .contact-slide {
+        height: 65vh;
+    }
+    .services{
+        height: 65vh;
     }
     
     .contact-caption h1 {
@@ -524,7 +530,7 @@ body {
 .contact-us {
     position: relative;
     width: 100vw;
-    height: 70vh;
+    height: 65vh;
 }
 
 .contact-heading {
@@ -558,7 +564,7 @@ body {
 .bg {
     width: 100vw;
     height: 70vh;
-    background-image: url(/lunar/lunar/img/assets/bgcover.png);
+    background-image: url(/lunar/img/assets/bgcover.png);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
