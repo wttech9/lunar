@@ -1,24 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 * {
     box-sizing: border-box
 }
 
+/* header {
+    padding: 0px;
+    width: 100%;
+} */
+
 header {
     padding: 0px;
     width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
 }
 
 body {
     margin: 0;
     padding: 0;
-    overflow: hidden;
+
 }
 
 html,
 body {
-    max-width: 100%;
-    overflow-x: hidden;
+    /* max-width: 100%;
+    overflow-x: hidden; */
 }
 
 /* header{ 
@@ -82,12 +90,19 @@ body {
 
 }
 
-
+/* 
 .navbar .logo {
     text-decoration: none;
     color: #00Aeef;
     font-size: 46px;
     font-weight: 600;
+} */
+#logo{
+    text-decoration: none;
+    color: #00Aeef;
+    font-size: 46px;
+    font-weight: 600;
+    cursor: pointer;
 }
 
 
@@ -268,6 +283,7 @@ body {
 
 
 .menu-flex-container{
+    margin-top: 15vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -368,6 +384,14 @@ body {
     padding: 0 10px;
     margin: 0 0;
 }
+
+.list>a>h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    line-height: 1.5;
+    padding: 0px 10px;
+    margin: 0 0;
+}
 .contact-heading {
     /* width: 500px;
     height: 900px; */
@@ -398,11 +422,11 @@ body {
         font-size: 7vw;
     }
 
-    .bookbutton {
+    /* .bookbutton {
         display: none;
-    }
+    } */
 
-    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+   
 
     /* import font */
     /* :root {
@@ -430,10 +454,10 @@ body {
     }
 
     /* Logo */
-    .logo {
+    #logo {
         display: inline-block;
         color: #00Aeef;
-        font-size: 14px;
+        /* font-size: 40px; */
         margin-left: 10px;
     }
 
@@ -443,6 +467,10 @@ body {
 
         /* background-color: #36383F; */
 
+    }
+
+    .menu-flex-container{
+        margin-top: 25vh;
     }
 
     .menu a {
@@ -524,3 +552,11 @@ body {
         top: 0;
     }
 }
+
+/* @media (max-width: 390px ) {
+
+    .menu-flex-container{
+        margin-top: 30vh;
+    }
+
+    } */

@@ -26,7 +26,7 @@
                         Jodhpur</a>
                 </div>
                 <div class="details" style="margin-left: 10%;">
-                    <a href="mailto:someone@yoursite.com" id="mail"><i class="fas fa-envelope"
+                    <a href="mailto:lunar@rediffmail.com" id="mail"><i class="fas fa-envelope"
                             style="color :#55acee"></i> lunar@rediffmail.com</a>
                 </div>
                 <!-- <div class="socialmedia">
@@ -43,12 +43,11 @@
         </div>
 
         <nav class="navbar">
-            <a class="logo" stylehref="">LUNAR</a>
+            <a id="logo" stylehref="">LUNAR</a>
             <input class="side-menu" style="display: none;" type="checkbox" id="side-menu" />
             <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
             <nav class="nav">
                 <ul class="menu">
-                    <li><a href="">Home</a></li>
                     <li><a href="product.html">Products</a></li>
                     <li><a href="#service">Services</a></li>
                     <li><a href="#about">About</a></li>
@@ -214,11 +213,13 @@
                     </div>
                     <div class="list">
                         <i class="fas fa-square-phone"></i>
-                        <h6>+919414135389</h6>
+                        <a href="tel:+919414135389"><h6>+919414135389</h6></a>
                     </div>
                     <div class="list">
                         <i class="fas fa-envelope"></i>
-                        <h6>lunarsurgicals@gmail.com</h6>
+                        <a href="mailto:lunar@rediffmail.com">
+                            <h6>lunar@rediffmail.com</h6>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -286,8 +287,34 @@
                 mapTypeId: google.maps.MapTypeId.HYBRID
             }
             var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-        }  
+        }
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+
+                if (targetElement) {
+                    const offset = 150; // Adjust this value based on your fixed element height
+                    const targetPosition = targetElement.offsetTop - offset;
+
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth',
+                    });
+                }
+            });
+        });
+        document.addEventListener('DOMContentLoaded', function () {
+    const logo = document.getElementById('logo');
+
+    logo.addEventListener('click', function () {
+        location.reload();
+    });
+});  
     </script>
+
     <!-- <script
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script> -->
 </body>
